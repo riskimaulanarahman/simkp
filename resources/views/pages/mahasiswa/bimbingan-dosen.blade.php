@@ -12,7 +12,7 @@
 		<!-- begin row -->
 		<div class="row">
             <!-- begin col-10 -->
-			@if($formkp->dosen_pembimbing !== null)
+			@if(isset($formkp->dosen_pembimbing))
             
 			<div class="col-xl-12">
                 @if (session('status'))
@@ -139,7 +139,7 @@
 			</div>
 			<!-- end col-10 -->
 			@else 
-			<div class="alert alert-warning fade show">
+			<div class="alert alert-danger fade show">
 				<button type="button" class="close" data-dismiss="alert">
 				<span aria-hidden="true">&times;</span>
 				</button>
