@@ -10,7 +10,7 @@
 	</div>
 	<!-- end login-cover -->
 	
-	<!-- begin login -->
+	<!-- begin login - -->
 	<div class="login login-v2" data-pageload-addclass="animated fadeIn">
 		<!-- begin brand -->
 		@if (session('status'))
